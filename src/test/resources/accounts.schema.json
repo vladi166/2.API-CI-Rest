@@ -13,7 +13,7 @@
     "additionalProperties": false,
     "patternProperties": {
       "currency": {
-        "enum": ["RUR", "USD"]
+        "enum": ["RUB", "USD"]
       }
     },
     "properties": {
@@ -21,7 +21,7 @@
         "type": "integer"
       },
       "name": {
-        "type": "string",
+        "type": "integer",
         "minLength": 1
       },
       "number": {
